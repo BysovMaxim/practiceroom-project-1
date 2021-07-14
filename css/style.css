@@ -7,4 +7,9 @@ body {
   font-family: "Gelion", serif;
 }
 
+.wrapper {
+  max-width: 1442px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */
