@@ -1,0 +1,30 @@
+.header {
+    padding: 33px 0 51px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+	margin-left: 550px;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+}
+
+.nav__item {
+    list-style: none;
+    padding: 0 16px;
+}
+
+.nav__link {
+    color: $color-title;
+    text-decoration: none;
+    cursor: pointer;
+}

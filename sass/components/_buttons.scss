@@ -1,0 +1,28 @@
+.button {
+    font-family: 'Almendra', san-serif;
+    padding: 18px 42px;
+    font-size: 1.8rem;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button_bordered {
+    border: 2px solid $color-secondary;
+    color: $color-button-text;
+    background: $color-background;
+}
+
+.button_colored {
+    color: $color-light;
+    background: $color-secondary;
+    border: 2px solid $color-secondary;
+    padding: 24px 67px;
+}
+
+.button_semitransparent {
+    color: $color-primary;
+    background: rgba(250,86,82, 0.15);
+    padding: 24px 50px;
+    border: 2px solid rgba(250,86,82, 0.15);
+}

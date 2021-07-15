@@ -4,15 +4,48 @@ html {
 
 body {
     font-size: 1.8rem;
-    font-family: 'Gelion', serif;
-    //font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Almendra', san-serif;
+    // font-family: 'Red Hat Display', sans-serif;
+    background-color: $color-background;
+    max-width: 1920px;
 }
 
-h1 {}
+h1 {
+    font-family: 'Red Hat Display', san-serif;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 139%;
+    color: $color-title;
+}
 
+h2 {
+    font-family: 'Red Hat Display', san-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 119%;
+    color: $color-title;
+}
 
+h3 {
+    font-family: 'Red Hat Display', san-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 122%;
+    color: $color-primary;
+}
 
-.wrapper {
-    max-width: $content-width;
-    margin: 0 auto;
+h4 {
+    font-family: 'Red Hat Display', san-serif;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 124%;
+    color: $color-primary;
+}
+
+p {
+    font-family: 'Almendra', san-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+    color: $color-subtitle;
 }

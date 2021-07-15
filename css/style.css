@@ -4,12 +4,136 @@ html {
 
 body {
   font-size: 1.8rem;
-  font-family: "Gelion", serif;
+  font-family: "Almendra", san-serif;
+  background-color: #E5E5E5;
+  max-width: 1920px;
+}
+
+h1 {
+  font-family: "Red Hat Display", san-serif;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 139%;
+  color: #035755;
+}
+
+h2 {
+  font-family: "Red Hat Display", san-serif;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 119%;
+  color: #035755;
+}
+
+h3 {
+  font-family: "Red Hat Display", san-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 122%;
+  color: #FA5652;
+}
+
+h4 {
+  font-family: "Red Hat Display", san-serif;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 124%;
+  color: #FA5652;
+}
+
+p {
+  font-family: "Almendra", san-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 124%;
+  color: #4B4F51;
 }
 
 .wrapper {
   max-width: 1442px;
-  margin: 0 auto;
+  margin: auto;
+}
+
+.header {
+  padding: 33px 0 51px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 550px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.nav__item {
+  list-style: none;
+  padding: 0 16px;
+}
+
+.nav__link {
+  color: #035755;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.promo {
+  background: url(../images/illustration.svg) right no-repeat;
+  background-size: 55.2%;
+}
+
+.promo__intro {
+  padding: 270px 0 205px;
+  max-width: 625px;
+}
+
+.promo__text {
+  padding-bottom: 60px;
+}
+
+.promo__title {
+  margin: 0;
+}
+
+.promo__pretitle {
+  margin: 0;
+}
+
+.button {
+  font-family: "Almendra", san-serif;
+  padding: 18px 42px;
+  font-size: 1.8rem;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button_bordered {
+  border: 2px solid #FB4C47;
+  color: #FF383D;
+  background: #E5E5E5;
+}
+
+.button_colored {
+  color: #ffffff;
+  background: #FB4C47;
+  border: 2px solid #FB4C47;
+  padding: 24px 67px;
+}
+
+.button_semitransparent {
+  color: #FA5652;
+  background: rgba(250, 86, 82, 0.15);
+  padding: 24px 50px;
+  border: 2px solid rgba(250, 86, 82, 0.15);
 }
 
 /*# sourceMappingURL=style.css.map */
