@@ -13,6 +13,10 @@
     background: $color-background;
 }
 
+.button_bordered:hover {
+    background: $color-light;
+}
+
 .button_colored {
     color: $color-light;
     background: $color-secondary;
@@ -20,9 +24,19 @@
     padding: 24px 67px;
 }
 
+.button_colored:hover {
+    background: $color-background;
+    color: $color-primary;
+}
+
 .button_semitransparent {
     color: $color-primary;
     background: rgba(250,86,82, 0.15);
     padding: 24px 50px;
     border: 2px solid rgba(250,86,82, 0.15);
+}
+
+.button_semitransparent:hover {
+    background: $color-primary;
+    color: $color-light;
 }

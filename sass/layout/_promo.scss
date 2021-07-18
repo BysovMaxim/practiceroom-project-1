@@ -2,6 +2,13 @@
   background: url(../images/illustration.svg)  right no-repeat;
   background-size: 55.2%;
 }
+.promo__pretitle {
+  padding-bottom: 33px;
+}
+
+.promo__title {
+  padding-bottom: 45px;
+}
 
 .promo__intro {
   padding: 270px 0 205px;
@@ -12,10 +19,4 @@
   padding-bottom: 60px;
 }
 
-.promo__title {
-  margin: 0;
-}
 
-.promo__pretitle {
-  margin: 0;
-}

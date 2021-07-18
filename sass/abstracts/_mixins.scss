@@ -1,0 +1,30 @@
+@mixin font($size, $height, $color, $weight: bold, $style: normal, ) {
+    font-size: $size;
+    line-height: $height;
+    font-style: $style;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin before ($content: '01',
+    $color: $color-primary,
+    $position: absolute,
+    $left: -145px,
+    $bottom: 30px,
+    $background: rgba(250, 86, 82, 0.15),
+    $border-radius: 100%,
+    $max-width: 75px,
+    $max-height: 75px,
+    $padding: 18px 22px)
+    {
+    content: $content;
+    color: $color;
+    position: $position;
+    left: $left;
+    bottom: $bottom;
+    background: $background;
+    border-radius: $border-radius;
+    max-width: $max-width;
+    max-height: $max-height;
+    padding: $padding;
+}

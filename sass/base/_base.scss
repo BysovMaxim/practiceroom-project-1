@@ -12,40 +12,47 @@ body {
 
 h1 {
     font-family: 'Red Hat Display', san-serif;
-    font-weight: bold;
-    font-size: 52px;
-    line-height: 139%;
-    color: $color-title;
+    @include font(5.2rem, 139%, $color-title)
 }
 
 h2 {
     font-family: 'Red Hat Display', san-serif;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 119%;
-    color: $color-title;
+    @include font(5rem, 119%, $color-title)
 }
 
 h3 {
     font-family: 'Red Hat Display', san-serif;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 122%;
-    color: $color-primary;
+    @include font(3.2rem, 122%, $color-primary)
 }
 
 h4 {
     font-family: 'Red Hat Display', san-serif;
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 124%;
-    color: $color-primary;
+    @include font(2.9rem, 124%, $color-primary)
 }
 
 p {
     font-family: 'Almendra', san-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 124%;
-    color: $color-subtitle;
+    @include font(1.8rem, 230%, normal, $color-subtitle)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.pretitle {
+    padding-bottom: 30px;
+}
+
+.title {
+    padding-bottom: 45px;
+}
+
+.entry {
+    text-align: center;
 }

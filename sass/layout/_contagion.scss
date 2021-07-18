@@ -1,0 +1,33 @@
+.contagion__wrapper {
+    padding-bottom: 150px;
+}
+
+.layout-3-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.advice {
+    text-align: center;
+    background: $color-light;
+    min-height: 570px;
+    max-width: 460px;
+    border: 1px solid $color-light;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 65px 50px;
+}
+
+.advice_bordered {
+    border-bottom: 10px solid $color-primary;
+}
+
+.contagion__text {
+    padding-bottom: 150px;
+}
+

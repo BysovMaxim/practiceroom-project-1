@@ -1,0 +1,48 @@
+.instructions__wrapper {
+    padding-bottom: 118px;
+}
+
+.instructions__entry {
+    max-width: 630px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.hint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hint:nth-child(odd) div:nth-child(even) {
+    order: -1;
+}
+
+.hint:nth-child(even) {
+    margin-left: 140px;
+}
+
+.hint__describe {
+    max-width: 525px;
+}
+
+.hint__title {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.one::before {
+    @include before('01');
+}
+
+.two::before {
+    @include before('02');
+}
+
+.three::before {
+    @include before('03');
+}
+
+.four::before {
+    @include before('04');
+}
