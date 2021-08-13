@@ -30,6 +30,11 @@ h4 {
     @include font(2.9rem, 124%, $color-primary)
 }
 
+h6 {
+    font-family: 'Red Hat Display', san-serif;
+    @include font(2.2rem, 124%, $color-primary)
+}
+
 p {
     font-family: 'Almendra', san-serif;
     @include font(1.8rem, 230%, normal, $color-subtitle)

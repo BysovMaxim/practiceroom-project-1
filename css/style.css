@@ -396,6 +396,15 @@ h4 {
   color: #FA5652;
 }
 
+h6 {
+  font-family: "Red Hat Display", san-serif;
+  font-size: 2.2rem;
+  line-height: 124%;
+  font-style: normal;
+  font-weight: bold;
+  color: #FA5652;
+}
+
 p {
   font-family: "Almendra", san-serif;
   font-size: 1.8rem;
@@ -639,6 +648,10 @@ p {
   padding: 18px 22px;
 }
 
+.statistic {
+  max-width: 980px;
+}
+
 .reports__top {
   display: flex;
   justify-content: space-between;
@@ -647,6 +660,73 @@ p {
 .statistic__country-item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.statistic__live-report {
+  border: none;
+  padding: 60px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.statistic__title {
+  margin-right: 50px;
+}
+
+.statistic__live-nav {
+  display: flex;
+  background: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.statistic__button {
+  border: none;
+  background: #ffffff;
+  padding: 15px;
+}
+
+.statistic__slash {
+  color: gray;
+}
+
+.statistic__live-report-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistic__map-nav {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.statistic__country-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistic__amount-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistic__country-item {
+  padding-top: 40px;
+}
+
+.statistic__flag {
+  margin-right: 25px;
+}
+
+.statistic__amount {
+  margin-right: 22px;
+  font-size: 22px;
 }
 
 .button {
